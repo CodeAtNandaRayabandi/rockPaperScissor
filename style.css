@@ -1,0 +1,87 @@
+html{
+    background-color: blueviolet;
+}
+h1{
+    text-transform: uppercase;
+}
+#title{
+    font-family: 'Bebas Neue',sans-serif;
+    text-align: center;
+    font-size: 60px;
+}
+.choice{
+    display: flex;
+    padding: 0px;
+    justify-content: space-between;
+}
+#boomer{
+   height:250px;
+   border: 5px solid black;
+   border-radius: 10%;
+}
+#genZ{
+   height:250px;
+   border: 5px solid black;
+   border-radius: 10%;
+}
+h2{
+    font-family: 'Comic Relief',sans-serif;
+    text-align: center;
+}
+p{
+    font-family: 'Tagesschrift';
+    font-size: 25px;
+}
+#rock{
+    height:150px;
+}
+#scissors{
+    height:150px;
+}
+#paper{
+    height:150px;
+}
+img{
+        height: 150px;
+    }
+@media (max-width: 800px){
+    #boomer{
+     height:200px;
+    }
+    #genZ{
+    height:200px;
+    }
+    
+}
+@media (max-width: 670px){
+    #boomer{
+     height:150px;
+    }
+    #genZ{
+    height:150px;
+    }
+    img{
+        height: 75px;
+    }
+
+}
+@media (max-width: 590px){
+    #boomer{
+     height:100px;
+    }
+    #genZ{
+    height:100px;
+    }
+    #rock{
+        height: 80px;
+    }
+    #scissors{
+        height: 100px;
+    }
+    #paper{
+        height: 100px;
+    }
+    img{
+        height: 75px;
+    }
+}
